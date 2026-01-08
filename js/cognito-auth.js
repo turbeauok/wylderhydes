@@ -101,7 +101,8 @@ var WildRydes = window.WildRydes || {};
     }
 
     function toUsername(email) {
-        return email.replace('@', '-at-');
+        return email;
+        //return email.replace('@', '-at-');
     }
 
     /*
@@ -171,3 +172,4 @@ var WildRydes = window.WildRydes || {};
         );
     }
 }(jQuery));
+
