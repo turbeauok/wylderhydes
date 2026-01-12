@@ -15,7 +15,7 @@ export const userManager = new UserManager({
 
 export async function signOutRedirect () {
     const clientId = "7u3fgqn801unoj8gd7fp0s6gq2";
-    const logoutUri = "<logout uri>";
+    const logoutUri = "https://d84l1y8p4kdic.cloudfront.net";
     const cognitoDomain = "https://us-east-1eyvkpnrl1.auth.us-east-1.amazoncognito.com";
     window.location.href = `${cognitoDomain}/logout?client_id=${clientId}&logout_uri=${encodeURIComponent(logoutUri)}`;
 };
